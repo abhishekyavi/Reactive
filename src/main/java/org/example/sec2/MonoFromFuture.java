@@ -19,7 +19,7 @@ public class MonoFromFuture {
 	private static CompletableFuture<String> getName(){
 		//log.info("generate name ");
 		return CompletableFuture.supplyAsync(()->{
-			log.info("generating name : ");
+			log.info("generating name in file : ");
 			return  Util.getFaker().name().firstName();
 		});
 
