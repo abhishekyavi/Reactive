@@ -24,7 +24,7 @@ public class SubscriberImpl implements Subscriber<String> {
 
 	@Override
 	public void onNext(String email) {
-		log.info("recived :{} ",email);
+		log.info("recived iteam :{} ",email);
 
 	}
 
