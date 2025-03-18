@@ -38,7 +38,7 @@ public class SubcriptionImpl implements Subscription {
 		}
 
 		if (count == MAX_ITEAMS) {
-			log.info("no more teams to give");
+			log.info("no more teams to give-max-items");
 			subscriber.onComplete();
 			isCanclead = true;
 		}
