@@ -27,7 +27,7 @@ public class SubcriptionImpl implements Subscription {
 		}
 		log.info("Subcriber has reuested {} iteams", l);
 		if(l>MAX_ITEAMS){
-			subscriber.onError(new RuntimeException("validation failed>>>"));
+			subscriber.onError(new RuntimeException("validation failed"));
 			isCanclead=true;
 			return;
 		}
