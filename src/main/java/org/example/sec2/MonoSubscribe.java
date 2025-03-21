@@ -11,6 +11,7 @@ public class MonoSubscribe {
 
 	public static void main(String[] args) {
 		var mono = Mono.just(1).map(i->i/0);
+		//var mono=Mono.just(1).map(i->i+"a");
 
 		mono.subscribe(i->log.info("recived {}",i),
 			err->log.info("recived error",err),

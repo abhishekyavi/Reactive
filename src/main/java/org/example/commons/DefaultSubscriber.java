@@ -37,6 +37,6 @@ public class DefaultSubscriber<T> implements Subscriber<T> {
 	@Override
 	public void onComplete() {
 
-		//log.info("oncomplete called from subcriber {}  ", this.name);
+		log.info("oncomplete called from subcriber {}  ", this.name);
 	}
 }

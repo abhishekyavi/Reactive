@@ -12,7 +12,7 @@ public class NonBlockingIO {
 	public static void main(String[] args) {
 		var client = new ExternalServiceClient();
 		log.info("starting");
-		for (int i = 1; i < 10; i++) {
+		for (int i = 1; i < 100; i++) {
 			client.getProductName(i)
 				.subscribe(Util.subscriber("sub:" + i));
 		}

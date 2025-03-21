@@ -11,6 +11,7 @@ public class MonoJust {
 		var subcriber = new SubscriberImpl();
 		mono.subscribe(subcriber);
 		subcriber.getSubscription().request(10);
+		//subcriber.getSubscription().cancel();
 
 		}
 

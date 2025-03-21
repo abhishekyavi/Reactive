@@ -10,7 +10,7 @@ public class Demo {
 		//demo3();
 		//demo4();
 		//demo5();
-		demo2();
+		demo3();
 	}
 
 
