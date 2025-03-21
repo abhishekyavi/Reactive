@@ -1,6 +1,6 @@
-package org.example.Flux.sec1;
+package org.example.Sec3.Flux;
 
-import org.example.Flux.client.ExternalServiceClient;
+import org.example.Sec3.client.ExternalServiceClient;
 import org.example.commons.Util;
 
 public class NonBlocingStreamMessages {

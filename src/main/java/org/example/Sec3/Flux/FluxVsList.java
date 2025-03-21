@@ -1,6 +1,6 @@
-package org.example.Flux.sec1;
+package org.example.Sec3.Flux;
 
-import org.example.Flux.helper.NameGrenrator;
+import org.example.Sec3.helper.NameGrenrator;
 import org.example.commons.Util;
 
 public class FluxVsList {
