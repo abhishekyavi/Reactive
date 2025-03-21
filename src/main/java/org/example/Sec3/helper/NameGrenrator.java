@@ -1,4 +1,4 @@
-package org.example.Flux.helper;
+package org.example.Sec3.helper;
 
 import java.util.List;
 import java.util.stream.IntStream;

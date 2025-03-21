@@ -1,4 +1,4 @@
-package org.example.Flux.client;
+package org.example.Sec3.client;
 
 import org.example.commons.AbstractHttpClient;
 
