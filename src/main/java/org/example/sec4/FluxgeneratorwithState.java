@@ -17,7 +17,6 @@ public class FluxgeneratorwithState {
                     }
                     return count;
                 }
-
         ).subscribe(Util.subscriber());
 
     }
